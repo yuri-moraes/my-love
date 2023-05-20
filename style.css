@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  height: 100vh;
+  background: rgb(241,0,207);
+  background: -moz-linear-gradient(180deg, rgba(241,0,207,1) 2%, rgba(152,21,149,1) 29%, rgba(128,17,125,1) 42%, rgba(100,20,110,1) 54%, rgba(102,18,87,1) 68%, rgba(149,44,130,1) 81%);
+  background: -webkit-linear-gradient(180deg, rgba(241,0,207,1) 2%, rgba(152,21,149,1) 29%, rgba(128,17,125,1) 42%, rgba(100,20,110,1) 54%, rgba(102,18,87,1) 68%, rgba(149,44,130,1) 81%);
+  background: linear-gradient(180deg, rgba(241,0,207,1) 2%, rgba(152,21,149,1) 29%, rgba(128,17,125,1) 42%, rgba(100,20,110,1) 54%, rgba(102,18,87,1) 68%, rgba(149,44,130,1) 81%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f100cf",endColorstr="#952c82",GradientType=1);
+}
+
+
+#content {
+  text-align: center;
+}
+
+#no-button {
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+button {
+  margin: 1rem;
+  padding: .5rem;
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20%;
+  background: rgb(122,21,108);
+  background: -moz-radial-gradient(circle, rgba(122,21,108,1) 27%, rgba(200,18,168,1) 47%, rgba(189,11,113,1) 68%, rgba(235,12,91,1) 77%, rgba(226,117,9,1) 85%);
+  background: -webkit-radial-gradient(circle, rgba(122,21,108,1) 27%, rgba(200,18,168,1) 47%, rgba(189,11,113,1) 68%, rgba(235,12,91,1) 77%, rgba(226,117,9,1) 85%);
+  background: radial-gradient(circle, rgba(122,21,108,1) 27%, rgba(200,18,168,1) 47%, rgba(189,11,113,1) 68%, rgba(235,12,91,1) 77%, rgba(226,117,9,1) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a156c",endColorstr="#e27509",GradientType=1);
+  animation-name: animacao;
+  animation-duration: 6s;
+}
+
+#yes-button {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#yes-button:hover {
+  color: black;
+  background: rgb(226,117,9);
+  background: -moz-radial-gradient(circle, rgba(226,117,9,1) 26%, rgba(235,12,91,1) 47%, rgba(189,11,113,1) 61%, rgba(200,18,168,1) 77%, rgba(122,21,108,1) 86%);
+  background: -webkit-radial-gradient(circle, rgba(226,117,9,1) 26%, rgba(235,12,91,1) 47%, rgba(189,11,113,1) 61%, rgba(200,18,168,1) 77%, rgba(122,21,108,1) 86%);
+  background: radial-gradient(circle, rgba(226,117,9,1) 26%, rgba(235,12,91,1) 47%, rgba(189,11,113,1) 61%, rgba(200,18,168,1) 77%, rgba(122,21,108,1) 86%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e27509",endColorstr="#7a156c",GradientType=1);
+}
